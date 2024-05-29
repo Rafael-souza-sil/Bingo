@@ -1,0 +1,76 @@
+*{
+    color: white;
+    font-family: sans-serif;
+}
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+body{
+    background-color: #070611;
+}
+
+.container {
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .bingo-card {
+    display: inline-block;
+    width: 240px;
+    margin: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  .bingo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .bingo-cell {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+  }
+  h1{
+    color: white;
+  }
+  button{
+    color: rgb(39, 30, 30);
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(5, 255, 80);
+    
+  }
+.input{
+    color: black;
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+label{
+    font-size: 20px;
+}
+  
+  
+  
